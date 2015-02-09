@@ -1,8 +1,11 @@
-select fname, lname from employee, works_on, project where dno=dnum and pnumber=pno and hours>=10;
+question 1
+
+select fname, lname from employee as e, works_on as w, where e.ssn=w.essn and w.pno=1;
 
 
+question 2
 
 
-works
+question 3
 
 select fname, lname from employee where super_ssn='333445555';
